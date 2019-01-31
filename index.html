@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DADAYA</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+
+<body>
+<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+
+    <form action="http://192.168.1.111:80/on" method="post" target="hiddenFrame">
+        <input type="hidden" value="1"><br>
+        <button type="submit">Light ON</button>
+    </form>
+    <form action="http://192.168.1.111:80/off" method="post" target="hiddenFrame">
+        <input type="hidden" value="1"><br>
+        <button type="submit" >Light OFF</button>
+    </form>
+</body>
